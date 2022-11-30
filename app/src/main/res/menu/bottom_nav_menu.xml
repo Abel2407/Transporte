@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navprincipal"
+        android:icon="@drawable/home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navviajes"
+        android:icon="@drawable/bus"
+        android:title="@string/title_viajes" />
+
+    <item
+        android:id="@+id/navcuenta"
+        android:icon="@drawable/user"
+        android:title="@string/title_cuenta" />
+
+
+</menu>

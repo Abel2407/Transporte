@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navprincipal">
+    <fragment
+        android:id="@+id/navcuenta"
+        android:name="com.example.transporte.ui.fragments.CuentaFragment"
+        android:label="fragment_cuenta"
+        tools:layout="@layout/fragment_cuenta" />
+    <fragment
+        android:id="@+id/navviajes"
+        android:name="com.example.transporte.ui.fragments.ViajesFragment"
+        android:label="fragment_viajes"
+        tools:layout="@layout/fragment_viajes" />
+    <fragment
+        android:id="@+id/navprincipal"
+        android:name="com.example.transporte.ui.fragments.PrincipalFragment"
+        android:label="fragment_principal"
+        tools:layout="@layout/fragment_principal" >
+        <action
+            android:id="@+id/action_navprincipal_to_resultadoBusquedaFragment"
+            app:destination="@id/resultadoBusquedaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadoBusquedaFragment"
+        android:name="com.example.transporte.ui.fragments.ResultadoBusquedaFragment"
+        android:label="fragment_resultado_busqueda"
+        tools:layout="@layout/fragment_resultado_busqueda" />
+</navigation>

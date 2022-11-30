@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.RegistroFlotaFragment" >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flota" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/esquinas_redondeadas"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/rbt"
+            android:gravity="center"
+            android:text="@string/title_registroFlota"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_placa"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegPlaca"
+            android:drawableLeft="@drawable/ic_bus"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_anio_fab"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegAnio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_bus"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_marca"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_bus"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_modelo"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_bus"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_cantidad_asientos"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegAsientos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_bus"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_soat"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/etRegSoat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_bus"
+            android:fontFamily="@font/segoeui"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/esquinas_redondeadas"
+            android:fontFamily="@font/rbt"
+            android:text="@string/btn_registrarVehiculo"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@id/navdashboard">
+    <fragment
+        android:id="@+id/navcuentaadmin"
+        android:name="com.example.transporte.ui.fragments.CuentaAdminFragment"
+        android:label="fragment_cuenta_admin"
+        tools:layout="@layout/fragment_cuenta_admin" />
+    <fragment
+        android:id="@+id/navdashboard"
+        android:name="com.example.transporte.ui.fragments.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navdashboard_to_reporteRutasFragment"
+            app:destination="@id/reporteRutasFragment" />
+        <action
+            android:id="@+id/action_navdashboard_to_reporteBoletosFragment"
+            app:destination="@id/reporteBoletosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navrutas"
+        android:name="com.example.transporte.ui.fragments.RutasFragment"
+        android:label="fragment_rutas"
+        tools:layout="@layout/fragment_rutas" >
+        <action
+            android:id="@+id/action_navrutas_to_registroFlotaFragment"
+            app:destination="@id/registroFlotaFragment" />
+        <action
+            android:id="@+id/action_navrutas_to_registroRutaFragment"
+            app:destination="@id/registroRutaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmRegistroFlotaFragment"
+        android:name="com.example.transporte.ui.fragments.ConfirmRegistroFlotaFragment"
+        android:label="fragment_confirm_registro_flota"
+        tools:layout="@layout/fragment_confirm_registro_flota" />
+    <fragment
+        android:id="@+id/confrimRegistroRutaFragment"
+        android:name="com.example.transporte.ui.fragments.ConfrimRegistroRutaFragment"
+        android:label="fragment_confrim_registro_ruta"
+        tools:layout="@layout/fragment_confrim_registro_ruta" />
+    <fragment
+        android:id="@+id/registroFlotaFragment"
+        android:name="com.example.transporte.ui.fragments.RegistroFlotaFragment"
+        android:label="fragment_registro_flota"
+        tools:layout="@layout/fragment_registro_flota" >
+        <action
+            android:id="@+id/action_registroFlotaFragment_to_confirmRegistroFlotaFragment"
+            app:destination="@id/confirmRegistroFlotaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroRutaFragment"
+        android:name="com.example.transporte.ui.fragments.RegistroRutaFragment"
+        android:label="fragment_registro_ruta"
+        tools:layout="@layout/fragment_registro_ruta" >
+        <action
+            android:id="@+id/action_registroRutaFragment_to_confrimRegistroRutaFragment"
+            app:destination="@id/confrimRegistroRutaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reporteBoletosFragment"
+        android:name="com.example.transporte.ui.fragments.ReporteBoletosFragment"
+        android:label="fragment_reporte_boletos"
+        tools:layout="@layout/fragment_reporte_boletos" />
+    <fragment
+        android:id="@+id/reporteRutasFragment"
+        android:name="com.example.transporte.ui.fragments.ReporteRutasFragment"
+        android:label="fragment_reporte_rutas"
+        tools:layout="@layout/fragment_reporte_rutas" />
+</navigation>

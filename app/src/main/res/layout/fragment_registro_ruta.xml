@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.RegistroRutaFragment" >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ruta" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/esquinas_redondeadas"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/rbt"
+            android:gravity="center"
+            android:text="@string/title_registroRuta"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_origen"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegOrigRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_pin_reg"
+            android:fontFamily="@font/segoeui"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_destino"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegDestRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_pin_reg"
+            android:fontFamily="@font/segoeui"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_precio"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegPrecioRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_pin_reg"
+            android:fontFamily="@font/segoeui"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_salida"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegSalidaRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_pin_reg"
+            android:fontFamily="@font/segoeui"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbt"
+            android:text="@string/text_llegada"
+            android:textColor="@color/selec"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etRegLlegadaRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_pin_reg"
+            android:fontFamily="@font/segoeui"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/esquinas_redondeadas"
+            android:fontFamily="@font/rbt"
+            android:text="@string/btn_registrarRuta"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

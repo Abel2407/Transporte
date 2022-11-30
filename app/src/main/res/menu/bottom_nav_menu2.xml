@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navdashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard" />
+    <item
+        android:id="@+id/navrutas"
+        android:icon="@drawable/bus"
+        android:title="@string/title_rutas" />
+    <item
+        android:id="@+id/navcuentaadmin"
+        android:icon="@drawable/user"
+        android:title="@string/title_cuenta" />
+</menu>

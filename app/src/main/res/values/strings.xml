@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Transporte</string>
+    <string name="title_home">Home</string>
+    <string name="title_viajes">Viajes</string>
+    <string name="title_cuenta">Cuenta</string>
+
+    <string name="title_welcome">Bienvenido</string>
+    <string name="title_REGISTRO">Registro</string>
+    <string name="title_user">Usuario</string>
+    <string name="title_password">Contraseña</string>
+    <string name="title_AdminRuta">Administrar Rutas</string>
+    <string name="title_AdminFlota">Administrar Flota</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt vulputate convallis. Morbi posuere imperdiet augue, eget iaculis urna fringilla quis.</string>
+    <string name="title_reporteRutas">Reporte de rutas</string>
+    <string name="title_reporteBoletos">Reporte de boletos vendidos</string>
+    <string name="title_registroFlota">Registro de Flota</string>
+    <string name="title_registroRuta">Registro de Ruta</string>
+
+
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_registroRuta">Registrar Ruta</string>
+    <string name="btn_asignarRuta">Asignar Ruta</string>
+    <string name="btn_registroFlota">Nuevo Registro</string>
+    <string name="btn_editarFlota">Editar Flota</string>
+    <string name="btn_Buscar">Buscar</string>
+    <string name="btn_GenerarReporte">Generar Reporte</string>
+    <string name="btn_registrarVehiculo">Registrar vehículo</string>
+    <string name="btn_registrarRuta">Registrar Ruta</string>
+
+
+    <string name="text_registro">Regístrese para continuar</string>
+    <string name="text_alternativa">O ingresar con</string>
+    <string name="text_crearcuenta">Crear cuenta</string>
+    <string name="text_nombrecomp">Nombres y Apellidos</string>
+    <string name="text_dni">DNI</string>
+    <string name="text_telefono">Teléfono</string>
+    <string name="text_email">Email</string>
+    <string name="text_dondeVamos">¿A dónde vamos?</string>
+    <string name="text_fecha_inicio">Fecha de Inicio</string>
+    <string name="text_fecha_fin">Fecha de Fin</string>
+    <string name="text_reg_flota_exitoso">Vehículo registrado de manera exitosa</string>
+    <string name="text_reg_ruta_exitoso">Registro de ruta exitoso</string>
+
+    <string name="text_placa">Placa</string>
+    <string name="text_anio_fab">Año de Fabricación</string>
+    <string name="text_marca">Marca</string>
+    <string name="text_modelo">Modelo</string>
+    <string name="text_cantidad_asientos">Cantidad de asientos</string>
+    <string name="text_soat">Póliza SOAT</string>
+
+
+    <string name="text_origen">Origen de Ruta</string>
+    <string name="text_destino">Destino de Ruta</string>
+    <string name="text_precio">Precio</string>
+    <string name="text_salida">Hora de Salida</string>
+    <string name="text_llegada">Hora de Llegada</string>
+
+
+    <string name="quest_olvidocontraseña">¿Has olvidado tu contraseña?</string>
+    <string name="quest_nuevousuario">¿Nuevo usuario?</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_rutas">Rutas</string>
+
+</resources>

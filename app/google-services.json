@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "809443467161",
+    "project_id": "bussapp-5b068",
+    "storage_bucket": "bussapp-5b068.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809443467161:android:edb162bb350d9af5ac7d08",
+        "android_client_info": {
+          "package_name": "com.example.busapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809443467161-i4159sr67mp0shk3rk84br72glqltnd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnBfNqeTjnP_yAgGuUMPZfNCKFiB0oaVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809443467161-i4159sr67mp0shk3rk84br72glqltnd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809443467161:android:9f87469053411742ac7d08",
+        "android_client_info": {
+          "package_name": "com.example.transporte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809443467161-i4159sr67mp0shk3rk84br72glqltnd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnBfNqeTjnP_yAgGuUMPZfNCKFiB0oaVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809443467161-i4159sr67mp0shk3rk84br72glqltnd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
