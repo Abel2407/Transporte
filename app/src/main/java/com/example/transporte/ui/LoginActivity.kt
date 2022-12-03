@@ -49,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
                             db.collection("users").document(etEmail.text.toString()).get().addOnSuccessListener{
                                 val validacion = it.get("Tipo") as String?
                                 if (validacion == "cliente"){
-                                    goMain()
+                                    goMain(it.get("DNI") as String)
                                     etEmail.text.clear()
                                     etContrasenia.text.clear()
 
@@ -79,8 +79,9 @@ class LoginActivity : AppCompatActivity() {
         dialog.show()
     }
 
-    private fun goMain(){
+    private fun goMain(dni: String){
         val intent: Intent = Intent(this, MainActivity::class.java)
+        intent.putExtra("dni", dni);
         startActivity(intent)
 
     }
