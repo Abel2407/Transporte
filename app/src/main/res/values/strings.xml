@@ -65,5 +65,7 @@
     <string name="title_activity_admin">AdminActivity</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_rutas">Rutas</string>
+    <string name="valtvRepRutas">REPORTE DE RUTAS</string>
+    <string name="valtvRepoBoletos">REPORTE DE BOLETOS</string>
 
 </resources>
