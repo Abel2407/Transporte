@@ -7,15 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
-import androidx.appcompat.app.AlertDialog
-import androidx.fragment.app.findFragment
-import androidx.navigation.fragment.findNavController
 import com.example.transporte.R
-import com.example.transporte.ui.AdminActivity
 import com.example.transporte.ui.fragments.model.VehiculoModel
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.firestore.FirebaseFirestore
-import java.util.*
 
 
 class RegistroFlotaFragment : Fragment() {

@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.commit
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.transporte.R
@@ -19,7 +20,7 @@ import com.whiteelephant.monthpicker.MonthPickerDialog
 import java.text.SimpleDateFormat
 import java.util.*
 
-class ViajesFragment : Fragment() {
+class DetalleViajesFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,6 +30,7 @@ class ViajesFragment : Fragment() {
         val view: View =  inflater.inflate(R.layout.fragment_viajes, container, false)
 
         val btnOpenCalendar: Button =  view.findViewById(R.id.btnOpenCalendar)
+        val btnNuevoViaje: Button =  view.findViewById(R.id.btnNuevoBoleto)
 
         val dni=(context as Activity?)!!.intent.getStringExtra("dni");
         val dbStore = FirebaseFirestore.getInstance()
@@ -75,6 +77,11 @@ class ViajesFragment : Fragment() {
                 .show();
         }
 
+        btnNuevoViaje.setOnClickListener {
+            val transaction = activity?.supportFragmentManager?.beginTransaction()
+            transaction?.replace(R.id.nav_host_fragment_activity_main, RegistroViajeFragment())
+            transaction?.commit()
+        }
 
 
         return view
@@ -117,7 +124,6 @@ class ViajesFragment : Fragment() {
                 rvViajes.layoutManager = LinearLayoutManager(requireContext())
             }
             .addOnFailureListener { exception ->
-                System.out.println(exception)
                 Toast.makeText(
                     (context as Activity?)!!,
                     "Error . Intente nuevamente $exception",
