@@ -11,7 +11,7 @@
         tools:layout="@layout/fragment_cuenta" />
     <fragment
         android:id="@+id/navviajes"
-        android:name="com.example.transporte.ui.fragments.ViajesFragment"
+        android:name="com.example.transporte.ui.fragments.DetalleViajesFragment"
         android:label="fragment_viajes"
         tools:layout="@layout/fragment_viajes" />
     <fragment

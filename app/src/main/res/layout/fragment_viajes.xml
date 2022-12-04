@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.ViajesFragment">
+    tools:context=".ui.fragments.DetalleViajesFragment">
 
     <LinearLayout
         android:id="@+id/linearLayout7"
@@ -30,10 +30,21 @@
         android:id="@+id/rvViajes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnNuevoBoleto"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
         app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="-5dp" />
+        tools:layout_editor_absoluteX="-6dp" />
+
+    <Button
+        android:id="@+id/btnNuevoBoleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="Nuevo Viaje"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

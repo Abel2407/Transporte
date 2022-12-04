@@ -15,6 +15,7 @@
     <string name="title_reporteBoletos">Reporte de boletos vendidos</string>
     <string name="title_registroFlota">Registro de Flota</string>
     <string name="title_registroRuta">Registro de Ruta</string>
+    <string name="title_registroViaje">Registro de Viaje</string>
 
 
     <string name="btn_login">Iniciar Sesión</string>
@@ -54,6 +55,7 @@
     <string name="text_precio">Precio</string>
     <string name="text_salida">Hora de Salida</string>
     <string name="text_llegada">Hora de Llegada</string>
+    <string name="text_ruta">Seleccione la ruta</string>
 
 
     <string name="quest_olvidocontraseña">¿Has olvidado tu contraseña?</string>
